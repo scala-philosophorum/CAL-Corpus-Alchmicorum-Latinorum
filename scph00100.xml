@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Scriptum super arborem Aristotelis</title>
+        <author>Albertus Magnus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl xml:id="xxx">xxx</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="SPC">
+          <category xml:id="tractat">
+            <catDesc>Tractat</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latin</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Alchemy</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Scriptum super arborem Aristotelis.</head>
+        <p>Haec est figura coeli, quae sphaera coeli nuncupatur: quae quidem sphaera continet in se
+          octo nobilissimas figuras, scilicet figuram primam, quae primus circulus appellatur, et
+          est circulus deitatis, quia continet in se verba divinitatis. Secunda figura continet in
+          se septenarium numerum planetarum. Fortia figura corruptibilia et generabilia in se
+          continet quatuor elementa. Quarta figura Draconem saevissimum continet emanantem a
+          praedicto septenario numero planetarum. Quinta figura caput et mortem ipsius Draconis
+          continet evidenter. Sexta figura quae tangit arborem, sex facies continet, et duo
+          animalia, videlicet ciconias. Septima figura quae tangit arborem cum planetis, ubi sunt
+          litterae albae, sextus circulus nominatur. Octava figura ad instar fulgoris solis arborem
+          auream cum suis radicibus in se continet radiantem.</p>
+        <p>Harum figurarum primae figurae, videlicet circuli divinitatis, expositio haec est, quod
+          ideo tali nomine appellamus, quia divinitatis nomina, id est sacrae paginae instituta, et
+          jura legalia et naturalia quae a Deo infallabiliter creduntur emanasse, sunt ibidem
+          circumscripta.</p>
+        <p>Secundae figurae, videlicet Saturni et aliorum planetarum, explanatio haec est: Nam
+          Saturnus sua frigiditate et siccitate format Draconem. Jupiter vero praestat Draconi suam
+          caliditatem digerendo ipsum in quamdam substantiam lutosam apparentem, quae est plena
+          caliditate et igneitate: et ideo non adhaeret tangenti.</p>
+        <p>Mars vero sua caliditate et siccitate dividit ipsum Draconem, et facit ipsum transcurrere
+          per coelum. Sol vero colligit ipsum, et facit ipsum aliquantulum vivere, quia ipse est
+          pater creaturarum, et Draco praedictus diligit ipsum propter suam caliditatem, ac
+          tincturam, et suavissimum odorem, qui redolet in eo. Venus vero sua caliditate et
+          siccitate congregata, disjungit hinc inde membra Draconis transmittendo punctionibus
+          multis per omnes juncturas eum pungendo, et ipsum Draconem quasi mortuum dimittendo.
+          Mercurius vero et Luna eorum humiditates super ipsum infundentes, vivificant ipsum, quia
+          faciunt ipsum vivere, currere, ambulare, et sibi colorem mutare in speciem sanguinis. Et
+          in principio nigrum apparet, et in medio declinans ad albedinem, et in fine rubicunditas
+          est declinans in colorem cupitis sui.</p>
+        <p>Tertiae figurae quatuor elementorum corruptibilium et generabilium declaratio haec est:
+          quod ideo ipsa corruptibilia et generabilia nominatur, quia semper corrumpuntur et
+          generantur, et quia alterantur ad invicem propter caliditatem et siccitatem, frigiditatem
+          et humiditatem. Et ideo ars et artifex materiam istorum elementorum disponit, ea
+          dividendo, et ad invicem conjungendo, removet ea ab eorum mortifera natura, et tunc mutata
+          est qualitas eorum: quia calidum et humidum est nutritivum, propter caliditatem et
+          humiditatem, quae in eo est. Frigidum et siccum quae in eo erant, et frigidum, et humidum,
+          sitibundorum est refrigerativum, et infirmorum curativum: quia aperit oculos caecorum, et
+          aures surdorum, et mundat leprosos, et extendit nervos, et venas aperit, et mortuos
+          resurgere facit.</p>
+        <p>Quarta figura est Draconis emanantis a praedictis septem planetis, quia ipse procedit per
+          subtilissimas influentias decurrentes in elementa: et deinde in coelis sua materia sparsa,
+          in nubibus habet suum ergastulum: deinde cum aqua pluviali, et grandinibus iterum
+          descendit in terram, conglutinat se cum ea, facitque sibi novam pelliculam. Et sic incipit
+          serpere in cavernis terrae, et semper tendit ad ima si aliquid eum non impedierit,
+          vaditque usque ad aquas marinas: exinde egreditur, si nullum sibi impedimentum fuerit
+          occursum, quousque ipse videat polum secundum: et exinde removetur et revertitur ad
+          primum. Sic numquam desistit ambulare, quia odit lucem, et semper quaerit se abscondere a
+          radiis solis, et propterea venenosum est, et non potest homo ipsum interficere sine majori
+          veneno.</p>
+        <p>Quintam figuram nominamus de capite ejus, et de morte ipsius Draconis. Caput ejus vivit
+          in aeternum: et ideo caput denominatur vita gloriosa, et angeli serviunt ei. Et hanc
+          imaginem posuit Deus in paradiso deliciarum, et in ea posuit suam imaginem et
+          similitudinem, et ibi Draco pugnavit cum imagine Dei, quousque fecit eam incidere in
+          mortem: et ideo Deus dedit tantam potestatem isti imagini, ut ipsa possit interficere
+          istum supradictum Draconem: et ideo talis imago fuit inserta serpenti, et est caput ejus,
+          quia totum corpus sequitur caput, et ipsum caput odit corpus, et interficit ipsum
+          incipiendo a cauda cum dentibus ipsum corrodere, quousque totum corpus intret in caput, et
+          in eo permanet sempiterne.</p>
+        <p>Sexta figura continet sex facies et duas ciconias cum proprietatibus suis ibi
+          apparentibus: quarum prima facies quae permanet in sublimibus, colorem optimum ostenditur
+          habere: secunda quae in aquis natat, diminutionem naturae a prima declinat: tertia quae in
+          antro, carbonis similitudinem habens, malam digestionem significat cum superflua
+          humiditate, et pessima foetulentia quae in ea est. Et ideo manu artificis oportet eam
+          lavare cum elemento aquae in ventre ciconiarum igne supposito, donec aer in ore et in
+          capite ciconiarum ascendat, et per rostrum faciat eum evomere, quousque caput nigrum
+          AEthiopis portans similitudinem, fuerit bene lavatum, et inceperit albescere: et tamdiu
+          hoc faciat, quousque rubicunditas suprema appareat.</p>
+        <p>Septima figura, quae sextus circulus nuncupatur, quique circulus tangit arborem cum
+          figuris septem planetarum, ubi sunt litterae albae, melius est tacere quam loqui
+          insipientibus de ea: quia in ea manet illud arcanum pretiosissimum, thesaurus omnium
+          Philosophorum sapientium. In ea est transmutatio omnium corruptibilium et generabilium
+          omnium lapidum pretiosorum. Ibi sunt thesauri absconditi innumerabiles, et nemo scit nisi
+          cui Deus voluerit revelare. Ibi invenitur lapis duello, onychinus, carbunculus, topazius,
+          amethystus, et beryllus, et panthera: et est quoddam coelum vitreum simile crystallo,
+          ductile sicut aurum. Et ideo reges terrae portant ipsum in capitibus suis: sapientes
+          mulieres abscondunt illud: virgines fatuae publice portant illud, quia depraedari
+          desiderant: pontifices et sacerdotes, religiosi et moniales lacerant ipsum, quia sic fuit
+          eis imperatum a lege divina: mercatores terrae et agricolae cum eo divites facti sunt: et
+          nautae portant illum ab Oriente usque in Occidentem: et in insulis quae sunt in Meridie
+          magis viget.</p>
+        <p>Octava figura quam supra nominavimus, arborem auream est continens cum septem ramis et
+          radicibus apparentibus: quam quidem arborem figuram Solis nuncupamus, quia reges gloriosi
+          tenent illam, et pugnant propter eam, et multi afficiuntur morte. Et ideo ille magnus
+          Alexander Imperator, Philippi Macedonum imperatoris filius, in itineribus suis invenit eam
+          in ultimis regionibus, et ibi invenit sepulcrum Hermetis, patris omnium Philosophorum,
+          plenum omnibus thesauris non metallicis, sed litteris aureis scriptis in tabula Zaradi,
+          quae quidem scriptura continetur in ultimis libris, quos Galenus composuit, et invenit
+          quamdam arborem sitam ab extra, intus tenentem viriditatem gloriosam: super eam ciconia
+          pulcherrima ibi sedebat, quasi se appellans circulum lunarem: et ibi ipse aedificavit
+          sedes aureas, et posuit terminum itineribus suis idoneum.</p>
+        <p>Faciamus finem in nostra figura coeli. Sciat lector, quod talis figura magis est in
+          existentia, quam in apparentia.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
