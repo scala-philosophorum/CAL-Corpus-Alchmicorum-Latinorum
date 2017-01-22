@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alkimia Minor</title>
+        <author>Albertus Magnus</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl xml:id="xxx">xxx</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="SPC">
+          <category xml:id="tractat">
+            <catDesc>Tractat</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latin</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Alchemy</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Alkimia Minor</head>
+        <p>Albertus Magnus</p>
+        <p>Incipit trac[ta]tus alkimie fratris Alberti de Colonia.</p>
+        <p>Dilecto in Christo patri N. ordinis predicatorum Albertus eiusdem ordinis salutem in
+          domino. Ex cunctis nostre scientie libris et secretorum abditis diligenti indagatione
+          prehibita relictis causarum divinis et divinarum causis attestantibus quidem vel
+          negantibus quam alkimialiter appellamus scientiam iuxta petitionem vestram, huiusmodi non
+          ignora ea que experti sumus, tria vobis in scriptis redigimus ex omnibus fallaciarum
+          discreta contestibus. Primum enim quasdam preparationes (n) huic operi necessarias brevi
+          sermone monstravimus demum vero elixiria i. medicinarum compositiones in album vel rubeum
+          corpora permutantes consequenter insinuabimus.</p>
+        <div>
+          <head>Rubificatio et solutio attramenti capitulum primum.</head>
+          <p>Attramentum est huic operi necessarium. Terra quidem nigra est odorem habens sulfureum.
+            Accipe ergo ipsum et minutissime conteras et in ollam novam diligenter concludas et
+            ignem per duas horas lentum subicias. Postea vero ignem augeas donec olla rubescat et in
+            tali calore per noctem dimittas. Mane quidem aperiens rubicundissimam in olla invenies
+            qui flos attramenti dicitur. Accipe ergo hoc rubeum et contere cum sale armoniacho et
+            sublima ab eo salem armoniacum et hoc tertio fac. Postea pone super marmorem in cellario
+            vel in loco humido et resolvetur in aquam rubicundissimam etiam diligenter in vitreo
+            vase conserva. Est enim aqua nobilis fixa cum qua spiritus et corpora rubeo [fol. 180v]
+            colore quem numquam dimittent informantur et est unum de retinaculis spirituum.</p>
+        </div>
+        <div>
+          <head>Calcinatio et solutio aluminis iameni capitulum secundum.</head>
+          <p>Alumen iameni etiam huic operi est necessarium. Accipiatur ergo in olla nova et
+            diligenter argilletur. Et in calore ignis ut attramentum pernoctare et quod mane in olla
+            repertum fuerit nive albius ut superius de attramento dictum est. In albissimam aquam
+            resoluatur cum aqua spiritus et corpora albificantur colore albo quem numquam
+            dimittent.</p>
+        </div>
+        <div>
+          <head>De viride eris eodem modo capitulum tertium.</head>
+          <p>Viride quidem eris operi necessarium est ut per omnia de attramento dictum est in aquam
+            rubeam soluitur. In qua sunt multa secreta nam unum de retinaculis spirituum est.</p>
+        </div>
+        <div>
+          <head>De preparatione salis communis capitulum quartum.</head>
+          <p>Sal communis multum spectat ad hanc artem et scientiam quoniam ipse aperit et claudit
+            et corrodit infirmitates et superfluitates spirituum et corporum cuius talis est
+            preparatio. Accipias ergo et calcinetur et in aqua calida dissoluatur et iterum
+            conjeletur et hoc quater faciendum est ut eius terreitas et superfluitas qui alios
+            purgare debet absoluatur et deponatur.</p>
+        </div>
+        <div>
+          <head>De preparatione salis alkali capitulum quintum.</head>
+          <p>Sal alkali nobilissimus quidem sal est nostro operi valde necessarius cuius pre [fol.
+            181r] paratio talis est. Accipiatur cinis clavellatus parte una calcis vive tantumdem et
+            vasi in panno lineo et spisso. Supponatur aqua fervens ut inferius distilletur et in
+            tantum perfundatur donec nulla acuitas in cineribus relinquatur. Postea quod distillatum
+            est per filtrum distilletur et in vase ereo bulliatur donec nichil aque apparens in
+            fundo vasis lapis durissimus conjeletur quod sal alkali dicitur. Ponatur ergo in olla
+            nova et subiciatur ignis lentus donec tanquam cera fundatur et currat. Postea ignis
+            augeatur quousque rubescat et in aliam ollam subito perfundatur et in loco sicco
+            custodiatur quia statim solueretur in aquam. Accipe ergo et in aquam claram dissoluas
+            postea evanescente aqua ad ignem conjeles et sic tertio fiat. Demum vero in resolutionis
+            fovea marmori superpositus dissoluatur.</p>
+        </div>
+        <div>
+          <head>De sale armoniaco et eius preparatione capitulum sextum.</head>
+          <p>Sal armoniacus operi nostro est necessarius. Est per eum enim non transmutantur corpora
+            in album vel rubeum set per eum reducuntur spiritus in corpora planetarum. Precedit enim
+            spiritus et parat ingressum et purgat omnia corpora a sua nigredine et relinquit sibi
+            spiritus fixos coniunctos perseverantes et recedit. Accipiatur ergo et per se sublimetur
+            et in aqua clara postea dissoluatur et iterum evanescente aqua conjeletur et hoc tertio
+            fiat et sic est optime preparatus in omni opere necessarius, [fol. 181v.]</p>
+        </div>
+        <div>
+          <head>De tartaro et eius preparatione capitulum septimum.</head>
+          <p>Tartarum nobilissima res est et spectat ad hanc scientiam. Accipe ergo ipsum et in igne
+            vehementi per triduum calcinabis postea in loco humido marmori superpositum dissoluatur.
+            Postea conjeletur et iterum in aqua clara dissoluatur et hoc 40 iteretur et habebis
+            oleum tartari nobilissimum cum quo finguntur spiritus et soluuntur et ingrediuntur.
+            Custodi ergo ad partem per se.</p>
+        </div>
+        <div>
+          <head>De urina et eius preparatione capitulum octavum.</head>
+          <p>Urina puerorum 12. annorum etiam huic operi necessaria preparanda est. Accipiatur ergo
+            urina puerorum bonum vinum bibentium quia melior est et acutior et de ebdomada in
+            ebdomadam eius residentia subtrahatur et per 7. ebdomadas postea per filtrum distilletur
+            in vase vitreo usque ad tertie partis consumptionem bulliatur demum in urinali
+            superposito alembicho distilletur operi necessaria preparata.</p>
+        </div>
+        <div>
+          <head>Secunda pars de sublimatione mercurii capitulum nonum.</head>
+          <p>Postquam diversarum rerum huic operi necessarias preparationes attulimus consequens est
+            ut de sublimationibus et fixationibus plenius disseramus et primo de sublimatione
+            mercurii postea de singulis ut ordo postulat narrabimus. Accipe ergo unam libram
+            mercurii et unam libram calcis corticum ovorum sive marmoris albi sive viridis eris et
+            aliquantulum salis armoniaci et super marmorem cum aceto fortissimo rorabis et for [fol.
+            i82r] titer incorporabis donec de mercurio nichil appareat. Postea per noctem in furno
+            panis desiccetur. Hoc facto temptabis si ex hoc nummus fricatus albescit et si albescit
+            nondum bene mortificatus est et iterum cum aceto rorabis et incorpores et assabis et
+            totiens quod de ipso mercurio nichil nummo adhereat et tunc bene mortificatus est.
+            Accipe ergo et contere et in vase aludel constituas et ignem lentum per medium diem
+            subicias aperto foramene vasis tunc laminam foramini superponas et si aliquid
+            humiditatis (no) adhereat ad hunc ignem lentum continues donec nichil humiditate
+            appareat tunc foramen claudas et ignem fortifices usque ad vesperas. Postea magis fortem
+            adhibeas per duas horas et dimitte infrigidari. Mane aperies quod vivum superiacet
+            pulverizatum ut nix, abstolatur et reconde et quod vivum est iterum sublima et sic
+            reitera donec totum pulverizatum habeas. Postea accipe hoc pulverizatum et cum tantumdem
+            salis communis preparati conteras et in aludel sublima et quod sublimatum est reserva et
+            iterum feces sublima donec totum sublimatum habeas et iterum cum novo sale quater
+            sublima et sic est optime purgatus.</p>
+        </div>
+        <div>
+          <head>De sublimatione sulphuris capitulum decimum.</head>
+          <p>Sulfur operi necessarium sic sublimatur et dealbatur. Recipe ergo sulfur et in aceto
+            per biduum lente bulliatur et despumetur. Postea cum tantumdem de fuligine ferri
+            conteratur et in aludel per diem sublimetur cum magis lento igne quam mercurius et [fol.
+            182V] hoc tertio conteratur et sublimetur cum eisdem fecibus postea cum tantumdem salis
+            communis quater sublimetur et erit album precellens nivem. Reconde ergo preparatum
+            fixationi.</p>
+        </div>
+        <div>
+          <head>De sublimatione arsenici capitulum undecimum.</head>
+          <p>Arsenicum vero nature sulfuree est subtilioris vero sub-stantie et ipsum non est
+            necesse decoquere. Inbibatur ergo cum aceto quater et desiccetur. Postea cum tantumdem
+            de fuligine ferri contere et per omnia ut superius de sulfure dictum est sublimetur et
+            erit albissimum aptum ad fixandum.</p>
+        </div>
+        <div>
+          <head>De primo modo fixationis capitulum duodecimum.</head>
+          <p>Accipe de quocumque horum trium sublimatorum volueris et pone in vase terreo vitreato
+            sine foraminibus in cineribus callidis et ignem competentem subicias donec quod inferius
+            est sublimetur. Postea revoluatur vas ut subiaceat quod superius emanebat et sic totiens
+            iteretur donec nichil ascendat et figatur quod intus est forsitan in decem diebus fiet
+            vel undecim.</p>
+        </div>
+        <div>
+          <head>De secundo modo fixationis capitulum tertium decimum.</head>
+          <p>Secundus quidem modus fixationis est qui fit per imbibi-tionem cum oleo tartari.
+            Imbibas et conteras et in ampulla vitrea reponas cineribus condas ignem lentum subiciens
+            desiccetur vel ponas ipsum in scudella vitrea et cum martello trita fortiter satis ut
+            reducatur in pulverem tegu [fol. 183r] lam cum carbonibus desuper pone tempore veris, in
+            estate pone ad solem ut desiccetur et sic facias ut fixetur et currat super laminam.
+            Postea frange ampullam tuam et iterum cum oleo conteras et inbibas et desicces et hoc
+            septies fac et habebis spiritus fixos et ingredientes ad album et ad rubeum
+            preparatos.</p>
+        </div>
+        <div>
+          <head>Tertia pars de aquis metallorum. Capitulum 14m.</head>
+          <p>In omnibus elixiriis ad album vel rubeum componendis necessarie sunt aque metallorum.
+            Recipe ergo lunam sive solem et subtillissime limabis et cum aceto fortissimo per novem
+            dies dimittas. Postea cum armoniaco conteras et sublima et hoc tertio fac postea in
+            fovea resolutionis marmori superponatur et soluatur.</p>
+        </div>
+        <div>
+          <head>De coloratione spirituum. Capitulum quintumdecimum.</head>
+          <p>Colorationes enim spiritus secundum hunc modum ante medicinarum compositiones faciende
+            sunt. Accipiatur ergo spiritus quem colorare volueris et cum aqua attramenti sive
+            viridis eris ad rubeum ad album vero cum aqua aluminis iameni septies inbibatur
+            conteratur et desiccetur.</p>
+        </div>
+        <div>
+          <head>De medicina ad rubeum. Capitulum sextumdecimum.</head>
+          <p>Accipe ergo in nomine domini unam partem mercurii facti rubei cum aqua attramenti et
+            fixi et pone super laminam ferream in loco humido et dissoluetur in aquam rubeam in qua
+            tantumdem sulfuris rubificati et pulverizati mittas et dimit [fol. 183V] te donec in eos
+            dissoluatur. Postea accipe unam partem aque sive calcis auri et istum admisceas ut
+            dissoluantur et uniantur. Demum vero in urinali superposito alembicho in aquam callidam
+            distilletur et habebis spiritus puros claros et sine nebula. Pone ergo hanc aquam in
+            topicam cecam et lento igne conjela. Postea quod conjelatum est sub fimo dissoluas et
+            dissolutum conjela et habebis tincturam fixam coniunctivam et perseverativam. Pone ergo
+            de hoc rubeo partem unam super 100 partem cuiuslibet metalli purgati et calcinati et est
+            superbonum in omni examinatione et malleatione. Probatio huius medicine hec est quia
+            conjelatur in laminam rubeam transparentem. Accipiatur enim modicum huius et
+            superponatur lamine candenti. Et si fluit nec fumigat perfecta est. Sin autem reiteretur
+            super eam conjelatio et distillatio in fimo donec quod dictum est eveniat.</p>
+        </div>
+        <div>
+          <head>De medicina ad album capitulum decimum septimum.</head>
+          <p>Accipe unam partem mercurii albi et unam partem arsenici albi et tertiam aque sive
+            argenti calcinati et super marmorem fortissime conteras et tantumdem salis armoniaci et
+            sublima ab eis salem armoniacum et hoc quater fiat et in loco humido dissoluatur et per
+            omnia ut superius dictum est fiat et conjelabitur in laminam albam cristallinam
+            transparentem. Proice de hoc albo partem unam super 100 partem cuiuslibet metalli
+            purgati et calcinati et est semper bonum in omni malleatione et examinatio [fol. 184r]
+            ne. Consulo tamen quod nunquam tingas aliquod metallum nisi purgatum et calcinatum sit
+            quia spiritus ingredi non possunt nisi sint purgati et si ingredirentur post primam vel
+            tertiam examinationem evanescerent et tinctura separaretur ab eis . Et nota quod sal
+            nitrum in pastatum cum vitello ovi et calce cuiuscumque corporis reducit ipsam calcem ad
+            corpus.</p>
+        </div>
+        <div>
+          <head>De oleo auri ad opus solis capitulum octavum decimum.</head>
+          <p>Ad opus solis primo partem ipsius solis puri cum odore saturni pulverizati vel ipsum
+            quo vis modo calcina. Et habeas aquam tertiam ex sale nitro ex sale armoniaco et
+            vitriolo ana de quolibet cum media parte alterius predictorum cinabrii distillata quam
+            aquam saltim quatuor vicibus ex pulvere solis distilla. Quo facto ponderetur pulvis et
+            si sit una pars habeant e due parte salis armoniaci bis sublimati et sex vicibus a
+            predicto sole sublima semper adiungendo de novo sale armoniaco sublimato s. per
+            sublimationem minuatur. Quo facto pone solem alteratum in vase nitido cohoperto sub fimo
+            equino per 5 dies. Et si adhuc non sit solutum ponatur per unam noctem ad aerem ita
+            tamen quot ab alio non tangatur et iterum ponatur in callido fimo ut prius dictum est
+            per 5 dies et dissoluetur in substantiam olei quod serva per se in amppulla clausa.</p>
+        </div>
+        <div>
+          <head>De oleo martis capitulum decimum nonum.</head>
+          <p>Quod autem dictum est de sole fiat in croco martis excepto quod tres sublimationes
+            salis [fol. 184V] anima in ipso sufficiunt quod serva per se.</p>
+        </div>
+        <div>
+          <head>De oleo vitrioli romani capitulum 20m.</head>
+          <p>Ad tertium capitulum sic procede. Recipe vitriolum romanum viride et tere subtiliter et
+            tritum et pone in aceto forti. Et dissoluetur et erit valde viride quod distilla per
+            filtrum. Demum distillatum supra lentum ignem conjela et conjelatum pone in vase terreo
+            clauso luto sapientie et vas stet in igne reverberationis per diem unum. Deinde
+            extrahatur et aperiatur vas et vitriolum valde rubeum invenietur quod iterum ut prius
+            dictum est, dissolue, distilla et conjela a quo conjelatio salem armoniacum bis
+            sublimatum. Tere, sublima et postea procede in dissolutione sicut dictum est de sole.
+            Ista tria olea sunt fixa et perfecte tingentia.</p>
+        </div>
+        <div>
+          <head>De oleo sulfuris capitulum 21.</head>
+          <p>Nunc procedendum est ad olea non fixa volatilia et primo in sulfure procedamus.
+            Accipiatur sulfur quamvis et tere minutissime cum quarta sui salis nitri et ponatur ad
+            bulliendum per diem unum in capitello forti semper colligendo nebulam super natantem
+            quousque non videatur plus ascendere. Et si sint due uncie salis nitri et aluminis
+            plumosi ana imbibatur ex ipsis primis duobus quibus bene simul incorporatus ut salsa
+            ponantur ad distillandum super lentum ignem quousque oleum exeat citrinum. Deinde ut
+            sanguis rubeum quod profacto [fol. 185r] proprio reservetur.</p>
+        </div>
+        <div>
+          <head>De oleo lapidis maioris capitulum 22m.</head>
+          <p>Sic in aqua et oleo rubeo procedetur. Recipe sanguinem humanum hominis rubei quantum
+            placet et conjeletur ad ignem ita quod maior pars aque recedat. Pars remanens in loco
+            ponatur in vitro clauso sub fimo equino per 15 dies. Deinde ponatur ad distillandum
+            cuius aqua totaliter per se colligatur. Demum oleum citrinum cum igne rubeo simul
+            reponatur. In vase vitreo clauso per dies 10. sub fimo equino callido collocetur et
+            iterum distilletur de qua distillatione solus ignis rubeus reservetur.</p>
+        </div>
+        <div>
+          <head>De oleo fermenti capitulum 23.</head>
+          <p>Accipiatur pasta ex frumento bene fermentato et modicum decoquatur in fimo equino per
+            30 dies ita quod panis sit bene putrefactus. Deinde piscetur optime et ponatur in vase
+            descensorii de terra forti vitreato et ita aptetur quod nichil de eo possit descendere
+            preter oleum. Et hoc fieri potest cum lamina ferrea minutim perforata. Et super
+            descensorium fiat ignis fortissimus quousque per ignem fortissimum nichil amplius
+            descendat et quod descensum est per alembichum distilla et rubeum serva.</p>
+        </div>
+        <div>
+          <head>De modo compositionis medicine capitulum 24m.</head>
+          <p>Sic in dei nomine procedas ad compositionem de omnibus sex oleis supradictis pone
+            partes equales in alembicho ceco et ille alembichus aptetur in caldario [fol. 185V] aqua
+            pleno ita quod non tangat fundum caldarii et aqua ascendat olea predicta extra alembich
+            in caldario per 4 digitos et semper ferveat aqua in quantum potest et in eadem
+            custodiatur quantitate donec de oleis nichil penitus plus ascendat. Set in fundo
+            convertantur in pulverem rubicundum et tunc completa sunt Dicta philosophorum dicentium,
+            si sciveris facere fixum volatile et volatile fixum artis perfectionem invenisti. Et
+            alterius qui dicit, si sciveris spiritus et corpora summe depurata coniungere per minima
+            perfectionis opera tibi indubitanter complebuntur de predicta medicina una super 50
+            album in rubeum mutat mutatione perfecta.</p>
+        </div>
+        <div>
+          <head>De lapide aureo i. marchasita aurea capitulum 25m.</head>
+          <p>Accipe marchasitam auream et contere et cribra postea commisce cum tantumdem mercurii
+            et sublima et sublimationem fecibus redde et hoc septies fiat. In septima vice remanebit
+            mercurius in fundo solubilis quem pone in parapsidem vitreatam in fimo callidissimo et
+            desuper pone catinum unum et cohoperi eum cum fimo et in tertia die invenies solutum.
+            Tunc accipe tantumdem solis calcinati et pone in aqua predicta super lentum ignem et
+            dissoluetur totum. Postea lento igne conjela et pone in fimo predicto et die tertia
+            invenies solutum tunc habeas calcinatum lune lb. ii. Et aque predicte lib. 1. et inbibe
+            et assa et reduc et erit corpus perfectum s. sol.</p>
+        </div>
+        <div>
+          <head>De croco ferri capitulum 26m.</head>
+          <p>[fol. 186r] Accipe de limatura acuum que sint de bono calibe et lava ipsam in scutella
+            vitreata cum aqua clara molendo cum pistello ligneo vel ferreo et colando aquam turbidam
+            et adendo aquam claram et totiens hoc iterabis donec aqua exeat clara postea limaturam
+            sic lotam pone in scudella predicta ad desiccandum super ignem lentum quousque aquositas
+            evanescat. Postea cum dicta limatura siccata misce tertiam partem sui de sulfure et
+            vitriolo et simul iterum tere subtiliter super porfidum. Et postquam optime insimul
+            trita fuerint in pasta ipsa in dicta scudella vitreata cum aceto et cum spatula ducendo
+            et incorporando fortiter donec sint ut pasta mollis non tamen ut superemineat aqua.
+            Postea dimitte quiescere quousque videris ipsam pastam facere bullas et quasi velle
+            calefieri. Tunc iterum revolve cum spatula et misce bene et plana et dimitte stare
+            aliquantulum et videbis ipsam misturam fumare et tumescere et crepare quod non tangas
+            sed permitte stare et post paululum videbis ipsam inflammari et exinde flammam sulfuris
+            accensi exire per ipsas crepaturas. Er sic permitte per noctem stare donec totus fumus
+            et calor evanescat. Et invenies ipsam limaturam rubeam ut sinopidem. Tunc habeas catinam
+            ferream magnam et grossam seu scudellam vitreatam et pone in ea dictam limaturam
+            rubificatam. Et accende super eam et circa eam carbones ita quot igneatur cacia [?
+            capsa] vel scudella et limatura. Et super ipsam [fol. 186v] limaturam agita cum pistello
+            ferreo seu spatula in ipsa cacia ut perfecte pulverizetur et calcinetur et sulfur totum
+            evanescat quod potest evanescere in furnum et relinquatur ipsa limatura rubicundissima
+            et subtilis et tunc calcina ipsam per se solam in fumo reverberationis per diem et
+            noctem et si plus melius valebit et tunc habebis optimum crocum ferri.</p>
+        </div>
+        <div>
+          <head>Quomodo fit calculum [capitulum] 27m.</head>
+          <p>Accipe libras quattuor laminarum caldariarum eris veteris et igneas et extinguas in
+            aceto in quo bullierit tartarum et sal et lava et frica optime ut perfecte mundentur ab
+            omni sorde. Postea cementa eas cum libris 3. vitrioli romani vel ciprini vel cuperosse
+            in olla terrea faciendo primo stratum de vitrioli pulverizato et postea ex dictis
+            laminibus et sic altematim facies usque ad summam olle et dictam ollam pone in fumo
+            reverberationis et des ignem per tres dies et noctes et si plus melius vel pone in 30
+            solario superiori ubi coquuntur lapides. Tunc desiste ab igne et infrigiditate frange
+            ollam predictam et invenies dictas laminas conbustas que trite erunt rubicundus pulvis
+            et hoc est optimum calcarium quod pone ad partem et serva.</p>
+        </div>
+        <div>
+          <head>Preparatio vitrioli capitulum 28m.</head>
+          <p>Postea recipe vitriolum rubificatum quod remanet tibi in fundo vasis in sublimatione
+            mercurii ad album et tere ipsum et pone in aqua callida et [fol. 187r] bullita ita ut
+            dissoluatur in ea sal quod fuerat sibi admixtum et dissoluetur cum sale, aliud de
+            vitriolo de quo non cures et tunc dimitte pausare et distilla ab eo aquam per filtrum et
+            iterum superpone aquam callidam ut siquid de sale remanserit dissoluatur. Postea
+            distilla per filtrum aquam et residebit vitreolum in fundo privatum sale rubeum quod
+            postea exsicca in scudella vitreata ad solem vel super lentum ignem et habebis vitriolum
+            optime rubificatum quod tere et pone ad partem.</p>
+        </div>
+        <div>
+          <head>De preparatione croci ferri capitulum 29.</head>
+          <p>Nunc omnibus predictis preparatis. Recipe supradicti croci ferri partem 1. et salis
+            armoniaci citrini partem aliam et misce et subtilissime super lapidem et ita pone in
+            ampulla vitri rotunda et pone super lapidum fornacis primo ignem lentum ore ampulle
+            aperto quousque humiditas evanescat postea ore ampulle clauso cum petia linea fortifica
+            ignem quousque ascenderat salis pars que ascendere potest. Et forte in hac prima vice
+            invenies tangendo cum baculo ipsa fixa in fundo vasis. Cave tamen ne sal armoniacus qui
+            sublimatur obturet os ampulle quia inpetu vaporis subfacti frangeretur ampulla et
+            perderetur opus totum. Tunc dimitte infrigidari et frange ampullam et tere subtilissime
+            iterum super lapidem salem armoniacum quem invenies sublimatum cum eo quod remansit in
+            fundo. Et iterum [fol. 187V] pone in alia ampulla et pone supra cineres in fornace. Et
+            da ignem per omnia faciendo ut supra quousque fundatur in fundo vasis et currat hoc
+            reitera septies vel pluries donec fundatur quod in fundo est ad lumen candele et habebis
+            crocum ferri fusum et ceratum. Postea tere ipsum subtilissime et dissolue ipsum in duplo
+            sui vel pluries aceti distillati per alembichum callidi et dimitte quiescere et distilla
+            quod ex eo distillatum est cum aceto per filtrum. Et iterum adde de aceto callido et
+            misce ut residuum quod ibi erat de subtili dissoluatur et remanebit terreitas quam
+            abiecte. Postea hoc totum dissolutum et distillatum iterum distilla ut sit clarum.
+            Postea pone totum acetum distillatum cum croco ferri soluto in urinalibus in cineribus
+            supra fornacem locatis usque ad os. Provideas tamen ne dictum acetum inpleat nisi
+            tertiam partem urinalis aut parum plus et superpone urinalibus alembichum cum
+            receptaculis suis et subicies ignem lentum quousque acetum distilletur. Et quod solutum
+            fuerit ex dicto croco ferri remaneat in spissatum in fundo cucurbite ad modum mellis
+            solidi. Tunc extrahe de dictis cineribus et pone totum in una ampulla magna ita quod
+            excedat totum tertiam partem ampulle. Et pone ipsam ampullam in cineribus usque ad
+            collum [su]per fornacem ut scis et subice levem ignem quousque [per os] ampulle tota
+            aquositas evanuerit. Tunc aperi aliquantulum cineres ita ut videas discopertam ampullam
+            a cineribus fere tertiam partem corporis ampulle et [fol. 188r] claude os ampulle cum
+            uno stupone petiarum lini et augumenta ignem quousque fundatur ut videas in vase fusum
+            et liquidum ut oleum. Tunc subtrahe ignem et dimitte infrigidari et postea extrahe
+            ampullam tuam et frange ipsam super loco mundo et invenies crocum tuum optimum
+            preparatum conversum in lapidem rubeum ut sanguis qui statim soluitur in manus vel loco
+            humido quem pone ad partem ut humorem non sentiat ne soluatur quia incontinenti
+            solueretur et iterum vade ut supra.</p>
+        </div>
+        <div>
+          <head>De preparatione calcutii et vitrioli capitulum 30.</head>
+          <p>Eodem modo facias de predicto calcutio et de predicto vitriolo rubificato s. de
+            unoquoque per se terendo partem cuiuslibet eorum cum totidem salis armoniaci et fundendo
+            et soluendo in aceto et distillando per filtrum et conjelando et fundendo per omnia
+            sicut fecisti de croco ferri et habebis calcutium conversum in lapidem rubeum solubilem
+            et preparatum. Et attramentum conversum in lapidem rubeum solubilem et facibilem et
+            preparatum pone ergo quodlibet per se ad partem in loco humido in quo humorem non
+            sentiat.</p>
+        </div>
+        <div>
+          <head>De preparatione mercurii ad soluendum capitulum 31.</head>
+          <p>Accipe postea libras duas vitrioli romani vel de cipro vel cuperosse et libram sensim
+            salis nitri. Et oz. 4 viridis eris et tere bene simul et pone in cucurbita cum alembicho
+            ad distillandum ut sis et de hac aqua facias magnam quantitatem. Postea recipe mercurii
+            crudi partem 1. et pone ipsam in una cucurbita vitrea et superpone [fol. 188v] eius
+            triplum de aqua predicta distilla et superpone alembichum absque lutatione cum
+            recipiente suo. Loca super fornacem in cineribus et subice ignem et dissoluetur dictus
+            mercurius in dicta aqua et postea continua ignem. Distilletur tota aqua et invenies
+            mercurium tuum conjelatum in rubeum pulverem. Cui postquam infrigidatum fuerit redde
+            iterum aquam ei s. suam. Et iterum distilla et sic reiterater. Postea redde sibi dictam
+            aquam iterum et dissolue ipsum in ea et conjela ipsum solum usque ad mellis
+            spissitudinem et habebis mercurium tuum rubificatum et preparatum ad soluendum pro rubeo
+            vel melius. Quando dicitur quod inbibatur cum dicta aqua usque ad spissitudinem mellis
+            non est verum set debet accipi ipse mercurius ter solutus et conjelatus in dicta aqua et
+            bene fixus et rubeus et fundi ut de calcutio et croco ferri et vitriolo diximus cum sale
+            armoniaco ter et postea solui in aceto distillato. Et distillari per filtrum et coniungi
+            cum dictis equa portione et predictis addatur pars una vel plus solis calcinati et
+            soluti. Et fiant totum una aqua que postea coaguletur et habebis elixirium ad solem
+            magnum.</p>
+        </div>
+        <div>
+          <head>De compositione omnium predictorum ad medicinam perfectam capitulum 32m.</head>
+          <p>In nomine domini accipe predictorum croci ferri preparati et vitrioli preparati ana
+            partem 1. et tere quodlibet per se postea misce insimul et tere subtilissime super
+            lapidem et pone in ampulam ro [fol. 189] tundam et grossam et pone in cineribus supra
+            fornacem prout scis et subice ignem ut liquidissime fundatur ut oleum tunc subtrahe
+            ignem et dimitte frigidari et frange vas et invenies lapidem unum rubeum seu nigrum quem
+            frange et invenies fractionem similem fractioni margarite rubee foliate quam iterum tere
+            et dissolue in aceto distillato et coagula in cucurbita. Et recipe acetum et sic fac ter
+            vel quater ut optime subtilientur et incorporentur ultimo coagula in predictis
+            cucurbitis ad spissitudinem mellis sollidi et pone in ampulla grossa quam pone in
+            cineribus supra fornacem et subice ignem levem ut substantia aquositatis evaporet aceti
+            deinde obtura os ampulle et fortifica ignem ut fundatur in oleum et permitte frigescere
+            et tunc frange ampullam tuam et invenies lapidem rubicundissimum quem statim tere
+            subtilissime et pone in ampulla plani fundi et obtura os cum pasta et cum petiis vel
+            gipso vel calce viva cum flore istorum duorum in pastatis cum albumine ovi vel
+            quomodocumque s. argilla vel stuppino vitreo ut non respiret. Et tunc loca in fimo
+            calido et humido mutando fimum semper de ebdomado [sic] in ebdomadam ita ut semper sit
+            callidus et humidus et hoc facias quousque quod in ampulla est soluatur in aquam claram
+            rubicundissimam ut sanguis et absque turbulentia quod sit si scies bene preparare fimum
+            in 40 diebus quod si non fuerit tunc tene in fimo quousque [fol. 189V] sic contingat.
+            Eodem modo dictum mercurium rubificatum et solutum in dicta aqua vitrioli et sal nitri
+            et viridi eris ultima vice conjelatum usque ad mellis spissitudinem et preparatum ut
+            dictum est locabis in ampulla plani fundi et obturabis os eius et pones in fimo ad
+            soluendum per omnia ut de croco et de aliis dictum est donec soluatur in aquam claram.
+            Postea recipe aque predictorum trium s. croci ferri calcutii et vitrioli solutorum in
+            fimo ut dictum est partem 1. et misce insimul dictas aquas et iterum pone sub fimo
+            predicto ut optime soluatur et incorporentur et fiant unum et cum clarificata fuerint
+            pone ea ad conjelandum in vase longo in cineribus lentissimo igne per octo dies vel
+            plures quousque coagulentur lento igne in laminam rubeam transparentem. Et si fortem
+            ignem dederis fundetur ut oleum cuius partem unam proice super 70 lune preparate cum
+            sale communi calcinate et reducte ter vel quater ita quod ter in cimento vel mercurio
+            conjelati in lunam et habebis solem optimum ad omnia iudicia. Et si de dicta aqua
+            composita ex dictis quatuor quando ponis eam ad conjelandum poneris quintam sui partem
+            solis laminati subtiliter et postea coangulaveris ut dictum est meliorem habebit
+            ingressum et melius valebit quod si postquam coagulatus iterum solueris et coagulaveris
+            cadet una supra 100 et cetera. Finis. Explicit liber secundus fratris Alberti de ordine
+            predicatorum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
